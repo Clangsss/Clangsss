@@ -1,5 +1,5 @@
 <div align="center">
- <a href="https://www.buymeacoffee.com/VishwaGauravIn" target="_blank"><img alt="" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black" style="vertical-align:center" /></a>
+ <img alt="" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=Coffee&logoColor=black" style="vertical-align:center" />
 </div>
 
 # 💻 Tech Stack:
