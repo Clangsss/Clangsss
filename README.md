@@ -1,18 +1,21 @@
+import matplotlib.pyplot as plt
+import numpy as np
 
+# Sample data: Modify this to reflect your actual performance metrics
+weeks = np.array([1, 2, 3, 4, 5])
+performance = np.array([50, 60, 75, 80, 95])  # Performance scores (could be % of tasks completed, progress, etc.)
 
-#### 1. GitHub Stats:
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+# Create the plot
+plt.plot(weeks, performance, marker='o', linestyle='-', color='b')
 
-#### 2. Most Used Languages:
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+# Add labels and title
+plt.xlabel('Weeks')
+plt.ylabel('Performance (%)')
+plt.title('My Performance Over Time')
+plt.grid(True)
 
-#### 3. GitHub Streak:
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical)
-
-#### 4. Contributions Graph:
-![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=yourusername&theme=react-dark)
-
----
+# Show the plot
+plt.show()
 
 
 
